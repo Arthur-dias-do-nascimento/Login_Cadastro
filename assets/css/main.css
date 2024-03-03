@@ -1,0 +1,73 @@
+main {
+    width: 100%;
+}
+
+main .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main .container section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .container section header span {
+    font-size: 0.9rem;
+    font-weight: 650;
+    color: var(--cl_00);
+    text-align: right;
+}
+
+main .container section header h1 {
+    font-size: 2.5rem;
+    color: var(--cl_04);
+    line-height: 40px;
+    letter-spacing: 3px;
+}
+
+main .container section .list-img-icons-socias {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 25px 0px;
+}
+
+main .container section .list-img-icons-socias .img-icon {
+    cursor: pointer;
+    transition: 500ms all ease;
+}
+
+main .container section .list-img-icons-socias .img-icon:hover {
+    transform: scale(1.3);
+}
+
+main .container section .link p {
+    font-size: 0.9rem;
+    color: var(--cl_01);
+    margin: 10px;
+}
+
+main .container section .link p > a {
+    color: var(--cl_04);
+    text-decoration: none;
+    position: relative;
+}
+
+main .container section .link p > a:hover::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background-color: var(--cl_04);
+    bottom: -3px;
+    animation: slide_link_animation 200ms ease 1 forwards;
+}
+
+.hidden {
+    display: none !important;
+}

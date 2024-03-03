@@ -1,0 +1,19 @@
+@keyframes slide_link_animation {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes input_span_animation {
+    0% {
+        top: 0%;
+    }
+
+    100% {
+        top: -25%;
+    }
+}

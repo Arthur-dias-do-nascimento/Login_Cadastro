@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Cadastro Page</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/index.js" defer></script>
+</head>
+<body>
+    <main>
+        <article class="container">
+            <section class="container-form-cadastro">
+                <header>
+                    <span>Cadastro</span>
+                    <h1>Criar Conta</h1>
+                </header>
+
+                <ul class="list-img-icons-socias">
+                    <li class="img-icon">
+                        <img src="assets/img/img-icon-google.png" alt="Imagem da logo do google">
+                    </li>
+                    <li class="img-icon">
+                        <img src="assets/img/img-icon-facebook.png" alt="Imagem da logo do facabook">
+                    </li>
+                    <li class="img-icon">
+                        <img src="assets/img/img-icon-linkedin.png" alt="Imagem da logo do linkedin">
+                    </li>
+                </ul>
+
+                <form class="form-cadastro">
+                    <div class="nome">
+                        <label>
+                            <div class="input-field">
+                                <input type="text" name="nome" class="input-text-nome" placeholder="Nome" required>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="email">
+                        <label>
+                            <div class="input-field">
+                                <input type="email" name="email" class="input-email-email" placeholder="E-mail" required>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="senha">
+                        <label>
+                            <div class="input-field">
+                                <input type="password" name="senha" class="input-password-senha" placeholder="Senha" required>
+                            </div>
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn-submit-cadastro">
+                        CADASTRO
+                    </button>
+                </form>
+
+                <div class="link">
+                    <p>Já tem uma conta? <a href="#" id="login">Faça login</a>.</p>
+                </div>
+            </section>
+
+            <section class="container-form-login hidden">
+                <header>
+                    <span>Login</span>
+                    <h1>Logar Conta</h1>
+                </header>
+
+                <ul class="list-img-icons-socias">
+                    <li class="img-icon">
+                        <img src="assets/img/img-icon-google.png" alt="Imagem da logo do google">
+                    </li>
+                    <li class="img-icon">
+                        <img src="assets/img/img-icon-facebook.png" alt="Imagem da logo do facabook">
+                    </li>
+                    <li class="img-icon">
+                        <img src="assets/img/img-icon-linkedin.png" alt="Imagem da logo do linkedin">
+                    </li>
+                </ul>
+
+                <form class="form-login">
+                    <div class="email">
+                        <label>
+                            <div class="input-field">
+                                <input type="email" name="email" class="input-email-email" placeholder="E-mail" required>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="senha">
+                        <label>
+                            <div class="input-field">
+                                <input type="password" name="senha" class="input-password-senha" placeholder="Senha" required>
+                            </div>
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn-submit-cadastro">
+                        LOGIN
+                    </button>
+                </form>
+
+                <div class="link">
+                    <p>Não tem uma conta? <a href="#" id="cadastro">Cadastre-se</a>.</p>
+                </div>
+            </section>
+
+            <div class="container-img">
+                <img src="assets/img/background-sign-up.png" alt="Imagem de login e cadastro">
+            </div>
+        </article>
+    </main>
+</body>
+</html>
